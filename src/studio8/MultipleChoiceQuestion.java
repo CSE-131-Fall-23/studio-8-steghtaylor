@@ -2,7 +2,7 @@ package studio8;
 
 public class MultipleChoiceQuestion extends Question {
 	
-	private String[] choices; 
+	protected String[] choices; 
 	public MultipleChoiceQuestion(String prompt, String answer, int points, String[] choices) {
 		//FIXME
 		super(prompt, answer, points);
